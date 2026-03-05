@@ -1,11 +1,9 @@
 <body>
     <main class="loading">
         <div class="container-loading-star">
-            <img src="/star-vector.svg" height="25">
-            <img src="/star-vector.svg" height="25">
-            <img src="/star-vector.svg" height="25">
-            <img src="/star-vector.svg" height="25">
-            <img src="/star-vector.svg" height="25">
+            @for (num of [0, 1, 2, 3, 4]; track num) {
+                <img [src]="timeOfLoading >= num ? '/star-pink.svg' : '/star-vector.svg'" [class]="timeOfLoading >= num ? 'star-active' : 'star-deactive'" [height]="25">
+            }
         </div>
             
         <div class="line-empty">
