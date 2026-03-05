@@ -3,15 +3,18 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     font-family: "jost-regular";
-    width: 15vw;
+    width: 16vw;
     height: 100vh;
     color: white;
+    border-right: 1px solid rgba(191, 3, 131, 10%);
 }
 
 .internal-navegation, .external-navegation {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 20px 20px 20px 20px;
+
 }
 
 .link-to-page {

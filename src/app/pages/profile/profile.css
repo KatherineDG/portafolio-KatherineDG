@@ -1,6 +1,56 @@
-.container-deco-stars {
+.container-profile-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffff;
+    z-index: 2;
+}
+
+.container-profile-content {
+    justify-content: center;
+    height: 100%;
+    margin: 0 20%;
+}
+
+.profile-image {
+    border-radius: 50%;
+    box-shadow: 0 0 15px var(--color-primary);
+    margin-bottom: 20px;
+}
+
+
+.title-profile {
+    font-family: "jost-bold";
+    font-size: 24px;
+}
+
+.subtitle-profile {
+    font-family: "jost-semibold";
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
+.text-profile {
+    font-family: "jost-regular";
+    font-size: 16px;
+}
+
+.sentence-highlight {
+    font-family: "jost-semibold";
+}
+
+
+.container-deco-stars-bottom-left {
     position: absolute;
     bottom: 50px;
+    left: 20%;
+}
+
+.container-deco-stars-top-right {
+    position: absolute;
+    top: 50px;
+    right: 5%;
 }
 
 .container-stars {
@@ -25,4 +75,36 @@
     position: absolute;
     top: 20px;
     right: 0;
+}
+
+.container-deco-galaxia-top-left {
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+
+.container-deco-galaxia-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
+    z-index: 2;
+}
+
+.deco-small-light, .deco-medium-light, .deco-big-light {
+    position: absolute;
+}
+
+.deco-small-light {
+    left: 20px;
+    top: 50px;
+}
+
+.deco-medium-light {
+    right: 50px;
+    top: 80px;
+}
+
+.deco-big-light {
+    right: 10px;
+    top: 10px;
 }

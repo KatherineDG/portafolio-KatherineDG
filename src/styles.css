@@ -4,6 +4,16 @@
     src: url("/fonts/Jost-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "jost-bold";
+    src: url("/fonts/Jost-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "jost-semibold";
+    src: url("/fonts/Jost-SemiBold.ttf") format("truetype");
+}
+
 :root {
     --color-primary: #FF00AA;
 }
@@ -23,5 +33,6 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 100% 0 0 0;
-    filter: blur(100px)
+    filter: blur(100px);
+    z-index: 1;
 }

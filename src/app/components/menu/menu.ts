@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './menu.css',
 })
 export class Menu {
+  //Poner alt y href
   internalLinks = [
     { iconCDN: "/icons/icons8-user-96.png", title: "Perfil"},
     { iconCDN: "/icons/icons8-shine-96.png", title: "Experiencia"},
