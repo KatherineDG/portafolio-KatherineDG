@@ -1,14 +1,26 @@
 <nav class="navegation">
-    @for (link of linkeds; track link.title) {
-        <a class="link-to-page">
-            <div class="container-icon-link">
-                <div class="icon-link-blur"></div>
-                <img class="icon" width="24" height="24" [src]="link.iconCDN" alt="sparkling"/>
-            </div>
-            <div class="d">
-                <p class="title-link">{{ link.title }}</p>
-            </div>
-            
-        </a>
-    }
+    <div class="internal-navegation">
+        @for (linkI of internalLinks; track linkI.title) {
+            <a class="link-to-page">
+                <div class="container-icon-link">
+                    <div class="icon-link-blur"></div>
+                    <img class="icon" width="24" height="24" [src]="linkI.iconCDN" alt="sparkling"/>
+                </div>
+                <div class="container-title-link">
+                    <p class="title-link">{{ linkI.title }}</p>
+                </div>
+                
+            </a>
+        }
+    </div>
+
+    <div class="external-navegation">
+        @for (linkE of externalLinks; track linkE.title) {
+            <a class="link-to-external-page">
+                <img class="icon-external" width="32" height="32" [src]="linkE.iconCDN" alt="sparkling"/>
+                <p class="title-link">{{ linkE.title }}</p>
+            </a>
+        }
+    </div>
+
 </nav>
