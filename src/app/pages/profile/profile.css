@@ -1,0 +1,29 @@
+.container-deco-stars {
+    position: absolute;
+    bottom: 50px;
+}
+
+.container-stars {
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.deco-small-star {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.deco-medium-star {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.deco-big-star {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
