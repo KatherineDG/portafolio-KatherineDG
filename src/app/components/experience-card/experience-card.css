@@ -28,11 +28,12 @@
 
 .title-secondary {
     font-size: 20px;
-    font-family: "jost-semibold";
+    font-family: "jost-medium";
 }
 
 .title-thirdly {
     font-size: 16px;
+    font-family: "jost-regular";
 }
 
 .container-activities {
