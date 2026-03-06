@@ -40,7 +40,7 @@
 
 <body>
   @if (currentNavigation() !== '/') {
-    <app-menu/>
+    <app-menu [currentUrl]="currentNavigation()"/>
   }
   <router-outlet />
 </body>

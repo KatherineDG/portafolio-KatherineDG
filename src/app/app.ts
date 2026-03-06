@@ -20,8 +20,6 @@ export class App {
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
       this.currentNavigation.set(this.router.url)
-      console.log(this.currentNavigation())
-
     })
   }
 }
