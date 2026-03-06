@@ -37,8 +37,11 @@
 
 </style>
 
-<main class="main">
 
-</main>
+<body>
+  @if (currentNavigation() !== '/') {
+    <app-menu/>
+  }
+  <router-outlet />
+</body>
 
-<router-outlet />
