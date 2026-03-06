@@ -1,0 +1,25 @@
+.container-experience-card {
+    background-color: rgba(67, 67, 67, 20%);
+    border-radius: 24px;
+    color: #ffff;
+}
+
+.header-experience-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-primary {
+    font-size: 24px;
+    font-family: "jost-bold";
+}
+
+.title-secondary {
+    font-size: 20px;
+    font-family: "jost-semibold";
+}
+
+.title-thirdly {
+    font-size: 16px;
+}

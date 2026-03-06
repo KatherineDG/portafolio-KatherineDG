@@ -1,0 +1,10 @@
+.main-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.title-experience {
+    color: var(--color-primary)
+}

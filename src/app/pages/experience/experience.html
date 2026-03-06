@@ -1,1 +1,19 @@
-<p>experience works!</p>
+<main class="main-experience">
+    <div>
+        <h1 class="title-experience">Bitácora en el Planeta Digital</h1>
+        <div>
+            @for (pe of principalExperience; track pe.rol) {
+                <app-experience-card [rol]="pe.rol" [site]="pe.site" [duration]="pe.duration" [activities]="pe.activities"></app-experience-card>
+            }
+        </div>
+    </div>
+    <div>
+        <h1 class="title-experience">Anexo</h1>
+        <div>
+            <!--Cards Experiencia-->
+        </div>
+    </div>
+</main>
+
+
+<router-outlet></router-outlet>

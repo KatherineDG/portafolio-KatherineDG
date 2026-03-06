@@ -1,0 +1,17 @@
+<div class="container-experience-card">
+    <div class="header-experience-card">
+        <div>
+            <p class="title-primary">{{rol()}}</p>
+            <p class="title-secondary">{{site()}}</p>
+        </div>
+        <p class="title-thirdly">{{duration()}}</p>
+    </div>
+    <div>
+        @for (activity of activities(); track activity) {
+            <div>
+                <div></div>
+                <p>{{activity}}</p>
+            </div>
+        }
+    </div>
+</div>
