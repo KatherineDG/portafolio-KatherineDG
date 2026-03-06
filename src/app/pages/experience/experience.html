@@ -10,7 +10,9 @@
     <div>
         <h1 class="title-experience">Anexo</h1>
         <div>
-            <!--Cards Experiencia-->
+            @for (pe of secondaryExperience; track pe.rol) {
+                <app-experience-card [rol]="pe.rol" [site]="pe.site" [duration]="pe.duration" [activities]="pe.activities"></app-experience-card>
+            }
         </div>
     </div>
 </main>

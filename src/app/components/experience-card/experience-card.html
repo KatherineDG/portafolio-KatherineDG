@@ -1,16 +1,16 @@
 <div class="container-experience-card">
     <div class="header-experience-card">
-        <div>
+        <div class="part-header-experience-card">
             <p class="title-primary">{{rol()}}</p>
             <p class="title-secondary">{{site()}}</p>
         </div>
         <p class="title-thirdly">{{duration()}}</p>
     </div>
-    <div>
+    <div class="container-activities">
         @for (activity of activities(); track activity) {
-            <div>
-                <div></div>
-                <p>{{activity}}</p>
+            <div class="container-activity">
+                <div class="vignette-activity"></div>
+                <p class="activity">{{activity}}</p>
             </div>
         }
     </div>

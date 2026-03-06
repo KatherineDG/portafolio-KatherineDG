@@ -25,6 +25,10 @@ body {
     background-color: #210B25;
 }
 
+p {
+    margin: 0;
+}
+
 .deco-big-circle-blur {
     position: absolute;
     bottom: 0;
