@@ -22,7 +22,7 @@ export class Experience {
 
   secondaryExperience = [
     {rol: "Oficina de Ingreso", site: "UADE", duration: "Julio 2023 - Diciembre 2023", activities: ["Desarrollo de habilidades de comunicación efectiva y atención personalizada a la comunidad universitaria"]},
-    {rol: "Hardwaer", site: "Freelancer", duration: "Diciembre 2023 - Actual", activities: ["Arreglo, mantenimiento y ensamble de equipos"]}
+    {rol: "Hardware", site: "Freelancer", duration: "Diciembre 2023 - Actual", activities: ["Arreglo, mantenimiento y ensamble de equipos"]}
   ]
 
 }

@@ -1,0 +1,23 @@
+<main class="main-stack">
+    <h1 class="title-stack">Tecnologías equipadas</h1>
+    <div class="container-filter-technologies">
+        <div class="container-filter">
+            <p class="text-filter">Filtrar por:</p>
+            <div class="container-type-filters">
+                <button (click)="selectFilter('frontend')" [class]="filterSelected() === 'frontend' ? 'filter-active button-filter' : 'button-filter'">Frontend</button>
+                <button (click)="selectFilter('backend')" [class]="filterSelected() === 'backend' ? 'filter-active button-filter' : 'button-filter'">Backend</button>
+                <button (click)="selectFilter('database')" [class]="filterSelected() === 'database' ? 'filter-active button-filter' : 'button-filter'">Database</button>
+                <button (click)="selectFilter('cloudarch')" [class]="filterSelected() === 'cloudarch' ? 'filter-active button-filter' : 'button-filter'">Cloud and Architecture</button>
+            </div>
+        </div>
+        <div class="container-technologies">
+            @for (technology of technologies(); track technology.name) {
+                <div class="technology">
+                    <img src="logos/icons8-{{technology.logo}}-48.png" height="36" width="36">
+                    <p class="text-technology">{{technology.name}}</p>
+                </div>              
+            }
+            <!--Cards tecnologias-->
+        </div>
+    </div>
+</main>
