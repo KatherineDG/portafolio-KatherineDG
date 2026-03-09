@@ -6,6 +6,7 @@
     width: 90%;
     margin-left: 50px;
     z-index: 2;
+    margin-bottom: 30px;
 }
 
 .title-projects {
@@ -72,4 +73,85 @@
 .text-project {
     font-family: "jost-regular";
     width: 550px;
+}
+
+.container-cards-extra {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-card-repo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 24px;
+    background-color: rgba(151, 71, 255, 20%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 0, 170, 0.1);
+    padding: 10px;
+    width: 300px;
+}
+
+.header-card-repo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "jost-bold";
+    font-size: 20px;
+    background-color: rgba(19, 4, 22, 20%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 0, 170, 0.1);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.background-circle-white {
+    background-color: #ffff;
+    border-radius: 50px;
+}
+
+.description-card-repo {
+    text-align: center;
+    font-family: "jost-regular";
+}
+
+.btn-link-card-repo {
+    color: #ffff;
+    font-family: "jost-semibold";
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 0, 170, 20%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 0, 170, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-card-repo:hover {
+    background-color: rgba(59, 0, 40, 0.2);
+}
+
+.title-card-highlight {
+    font-family: "jost-medium";
+}
+
+.container-highlight {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.image-highlight {
+    width: 100%;
+    border-radius: 24px;
 }

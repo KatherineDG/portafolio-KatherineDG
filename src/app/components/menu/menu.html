@@ -17,7 +17,7 @@
     <div class="external-navegation">
         @for (linkE of externalLinks; track linkE.title) {
             <a class="link-to-external-page" [href]="linkE.url" target="_blank">
-                <img class="icon-external" width="32" height="32" [src]="linkE.iconCDN" [alt]="linkE.alt"/>
+                <img [class]="linkE.title === 'GitHub' ? 'icon-external background-circle-white' : 'icon-external'" width="32" height="32" [src]="linkE.iconCDN" [alt]="linkE.alt"/>
                 <p class="title-link">{{ linkE.title }}</p>
             </a>
         }

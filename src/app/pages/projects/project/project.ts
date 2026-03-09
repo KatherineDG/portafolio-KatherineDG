@@ -27,7 +27,7 @@ export class Project {
         { logo: 'santanderx',
           title: 'Reconocimiento en Santander X Argentina Award University',
           description: 'Desarrollado junto a mi compañera Victoria Endendyk. El proyecto fue seleccionado como finalista nacional, destacándose entre más de 200 propuestas de todo el país por su enfoque innovador en tecnología aplicada a la educación.',
-          image: 'santanderx-educonnectai'
+          image: 'educonnectai_santanderx'
         }
       ]
     },
@@ -43,7 +43,7 @@ export class Project {
           link: 'https://github.com/KatherineDG/EstudioDengueCienciaDeDatos.git'
         },
         { site: 'Looker',
-          logo: 'looker',
+          logo: 'google-looker',
           type: 'reporte',
           description: 'lookerstudio/reportedenguecaba',
           link: 'https://lookerstudio.google.com/reporting/20bd5209-7075-47df-8d35-70b63a6903ba'
@@ -100,19 +100,19 @@ export class Project {
           logo: 'github',
           type: 'repositorio',
           description: 'KatherineDG/EcoSense',
-          link: 'https://github.com/KatherineDG/Gateway-De-Pagos-DAII.git'
-        },
-        { site: 'GitHub',
-          logo: 'github',
-          type: 'repositorio',
-          description: 'KatherineDG/dashboard-real-time',
           link: 'https://github.com/KatherineDG/EcoSenseTPI2025.git'
         },
         { site: 'GitHub',
           logo: 'github',
           type: 'repositorio',
-          description: 'Sistema integrado',
+          description: 'KatherineDG/dashboard-real-time',
           link: 'https://github.com/KatherineDG/dashboard-real-time.git'
+        },
+        { site: 'GitHub',
+          logo: 'github',
+          type: 'repositorio',
+          description: 'Sistema integrado',
+          link: 'https://github.com/ManuMarcos/iot-eda-architecture.git'
         }
       ],
       highlights: []

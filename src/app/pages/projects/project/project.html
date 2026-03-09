@@ -19,9 +19,29 @@
                 </div>
                 <p class="text-project">{{ project.information }}</p>
             </div>
-            <div>   
-                cards
-                <!--Cards de links externos-->
+            <div class="container-cards-extra">
+                @for (repo of project.repositories; track repo.link) {
+                    <div class="container-card-repo">
+                        <div class="header-card-repo">
+                            <img [class]="repo.logo === 'github' ? 'background-circle-white' : ''" src="logos/icons8-{{repo.logo}}-48.png" width="32">
+                            <p>{{repo.site}}</p>
+                        </div>
+                        <p class="description-card-repo">{{repo.description}}</p>
+                        <a class="btn-link-card-repo" href="{{repo.link}}" target="_blank">Ver {{repo.type}}</a>
+                    </div>
+                }
+                @for (high of project.highlights; track high.title) {
+                    <div class="container-card-repo">
+                        <div class="header-card-repo">
+                            <img src="logos/logo-{{high.logo}}.png" width="150">
+                        </div>
+                        <div class="container-highlight">
+                            <p class="title-card-highlight">{{high.title}}</p>
+                            <p class="description-card-repo">{{high.description}}</p>
+                            <img class="image-highlight" src="images/{{high.image}}.jpg">
+                        </div>
+                    </div>
+                }
             </div>
         </div>
     }
