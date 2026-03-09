@@ -67,7 +67,7 @@ export class Project {
     },
     { name: 'Kukit',
       images: ['kukit'],
-      technologies: ['User Research', 'Mapa de empatía', 'Proto-Persona', 'Persona', 'User Journey Map', 'Benchmarking', 'Arquitectura de la Información', 'Figma', 'Wireframing', 'Prototype', 'Leyes de Gestalt', 'Heurísticas de la Usabilidad de Nielsen', 'Test de Usuario'],
+      technologies: ['User Research', 'Mapa de empatía', 'Proto-Persona', 'Persona', 'User Journey Map', 'Benchmarking', 'Arquitectura de la Información', 'Figma', 'Wireframing', 'Prototype', 'Leyes de Gestalt',  'Test de Usuario', 'Heurísticas de la Usabilidad de Nielsen'],
       information: 'Kükit es una plataforma móvil que transforma ingredientes disponibles en el hogar en recetas personalizadas para mitigar el desperdicio de alimentos. Como Investigadora UX y Figma Maker dentro del equipo, realicé la validación de hipótesis y el prototipado de alta fidelidad. Analicé 69 encuestas y entrevistas para construir Mapas de Empatía y User Journey Maps, identificando diferentes puntos de dolor. Se tradujeron estos hallazgos en un sistema de diseño en Figma, aplicando heurísticas de Nielsen para garantizar una navegación intuitiva. Logrando un diseño de producto donde la estética no es solo visual, sino una herramienta funcional que elimina la carga mental del usuario.',
       repositories: [
         { site: 'Figma',
@@ -86,7 +86,7 @@ export class Project {
           logo: 'docs',
           type: 'documentación',
           description: 'document/kukit',
-          link: 'https://www.figma.com/design/5vmXbCWfJc7py5THwNDTSS/K%C3%BCkit?node-id=0-1&t=2mkPuoEI2HOSXdVQ-1'
+          link: 'https://drive.google.com/file/d/1mQF4uTXjHxcts4him4AbSmp26CFjuUIc/view?usp=sharing'
         }
       ],
       highlights: []
