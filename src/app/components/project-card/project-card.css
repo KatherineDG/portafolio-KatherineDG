@@ -1,0 +1,41 @@
+.container-project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    background: rgba(255, 255, 255, 10%);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 0, 170, 0.1);
+    padding: 20px;
+    border-radius: 32px;
+    color: #ffff;
+    font-size: 16px;
+    font-family: "jost-regular";
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.container-project-card:hover {
+    box-shadow: 0 0 10px var(--color-primary);
+}
+
+.image-project-card {
+    border-radius: 24px;
+    margin-bottom: 10px;
+}
+
+.header-project-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.role-project {
+    color: var(--color-primary);
+}
+
+.type-project {
+    color: rgb(255, 206, 239);
+    font-size: 14px;
+}

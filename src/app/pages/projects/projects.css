@@ -1,0 +1,20 @@
+.main-projects {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.title-projects {
+    color: var(--color-primary);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container-project-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+}
