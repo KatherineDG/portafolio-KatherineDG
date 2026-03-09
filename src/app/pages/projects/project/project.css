@@ -1,0 +1,55 @@
+.main-projects {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.title-projects {
+    color: var(--color-primary);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container-project {
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+}
+
+.container-information-project {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+}
+
+.container-images-project {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-technologies-project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.technology-project {
+    white-space: nowrap;
+    background-color: var(--color-primary);
+    padding: 8px  14px;
+    font-size: 14px;
+    font-family: "jost-medium";
+    text-align: center;
+    border-radius: 50px;
+}
+
+.text-project {
+    font-family: "jost-regular";
+    width: 550px;
+}

@@ -4,7 +4,7 @@ import { Loading } from './pages/loading/loading';
 import { Experience } from './pages/experience/experience';
 import { Stack } from './pages/stack/stack';
 import { Projects } from './pages/projects/projects';
-import { Project } from './pages/project/project';
+import { Project } from './pages/projects/project/project';
 
 export const routes: Routes = [
     { path: '', component: Loading },

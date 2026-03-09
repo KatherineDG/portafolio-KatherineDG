@@ -136,37 +136,6 @@ export class Projects {
         }
       ],
       highlights: []
-    },
-    { name: 'Goalish',
-      image: 'goalish',
-      role: 'UX/UI Design',
-      type: 'Personal',
-      year: 2026, 
-      description: 'Plataforma móvil diseñada para simplificar la gestión financiera personal y el cumplimiento de objetivos de ahorro.',
-      technologies: ['Mapa de empatía', 'Proto-Persona', 'User Journey Map', 'Benchmarking', 'Arquitectura de la Información', 'Figma', 'Wireframing', 'Prototype', 'Leyes de Gestalt', 'Heurísticas de la Usabilidad de Nielsen'],
-      information: 'Goalish es una solución integral de finanzas personales diseñada para combatir el abandono por fatiga cognitiva. A diferencia de las apps tradicionales, centra la experiencia en el cumplimiento de objetivos específicos, integrando un motor de recomendaciones con IA y escaneo OCR de facturas para minimizar la carga de registro manual. El sistema de diseño fue hecho en Figma, aplicando Auto Layout avanzado para garantizar escalabilidad y adaptabilidad, junto con una arquitectura de componentes atómicos, variantes y microanimaciones.',
-      repositories: [
-        { site: 'Figma',
-          logo: 'figma',
-          type: 'prototipo',
-          description: 'figma/goalish',
-          link: 'https://www.figma.com/design/5vmXbCWfJc7py5THwNDTSS/K%C3%BCkit?node-id=0-1&t=2mkPuoEI2HOSXdVQ-1'
-        },
-        { site: 'Figma',
-          logo: 'figma',
-          type: 'wireframes',
-          description: 'figma/goalish',
-          link: 'https://www.figma.com/proto/5vmXbCWfJc7py5THwNDTSS/K%C3%BCkit?node-id=203-2&p=f&t=GnPIudQFEPGBD6hv-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=203%3A2'
-        },
-        { site: 'Documentación',
-          logo: 'docs',
-          type: 'documentación',
-          description: 'document/goalish',
-          link: 'https://www.figma.com/design/5vmXbCWfJc7py5THwNDTSS/K%C3%BCkit?node-id=0-1&t=2mkPuoEI2HOSXdVQ-1'
-        }
-      ],
-      highlights: []
-    },
-
+    }
   ]
 }

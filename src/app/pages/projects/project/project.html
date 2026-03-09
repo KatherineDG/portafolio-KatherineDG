@@ -1,0 +1,25 @@
+<main class="main-projects">
+    <h1 class="title-projects">{{ name() }}</h1>
+    @if ( currentProject(); as project ) {
+        <div class="container-project">
+            <div class="container-information-project">
+                <div class="container-images-project">
+                    <button> < </button>
+                    <img src="images/{{project.images[0]}}.jpg" width="500">
+                    <button> > </button>
+                </div>
+                <div class="container-technologies-project">
+                    @for (technology of project.technologies; track technology) {
+                        <p class="technology-project">{{ technology }}</p>
+                    }
+                </div>
+                <p class="text-project">{{ project.information }}</p>
+            </div>
+            <div>   
+                cards
+                <!--Cards de links externos-->
+            </div>
+        </div>
+    }
+   
+</main>
