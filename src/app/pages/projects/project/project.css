@@ -27,6 +27,26 @@
     width: 600px;
 }
 
+.btn-before, .btn-after {
+    background-color: rgba(19, 4, 22, 35%);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn-before {
+    border-radius: 16px 0 0 16px;
+}
+
+.btn-after {
+    border-radius: 0 16px 16px 0;
+}
+
+.btn-before:hover, .btn-after:hover {
+    background-color: rgba(95, 64, 100, 0.35);
+
+}
+
 .container-images-project {
     display: flex;
     flex-direction: row;

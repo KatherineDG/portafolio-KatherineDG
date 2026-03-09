@@ -4,9 +4,13 @@
         <div class="container-project">
             <div class="container-information-project">
                 <div class="container-images-project">
-                    <button> < </button>
+                    <button class="btn-before">
+                        <img src="icons/icons8-back-96.png" width="24">
+                    </button>
                     <img src="images/{{project.images[0]}}.jpg" width="500">
-                    <button> > </button>
+                    <button class="btn-after">
+                        <img src="icons/icons8-next-96.png" width="24">
+                    </button>
                 </div>
                 <div class="container-technologies-project">
                     @for (technology of project.technologies; track technology) {
