@@ -19,3 +19,7 @@
     grid-template-columns: auto auto auto;
     gap: 20px;
 }
+
+.link-project {
+    text-decoration: none;
+}

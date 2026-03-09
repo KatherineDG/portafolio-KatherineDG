@@ -4,6 +4,7 @@ import { Loading } from './pages/loading/loading';
 import { Experience } from './pages/experience/experience';
 import { Stack } from './pages/stack/stack';
 import { Projects } from './pages/projects/projects';
+import { Project } from './pages/project/project';
 
 export const routes: Routes = [
     { path: '', component: Loading },
@@ -11,5 +12,5 @@ export const routes: Routes = [
     { path: 'experience', component: Experience},
     { path: 'stack', component: Stack },
     { path: 'projects', component: Projects},
-    // { path: 'project/:name', component: }
+    { path: 'projects/:name', component: Project}
 ];
