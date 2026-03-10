@@ -29,6 +29,10 @@ body {
     flex-direction: row;
     margin: 0;
     background-color: #210B25;
+    width: fit-content;
+}
+h1 {
+    font-family: "jost-bold";
 }
 
 p {
