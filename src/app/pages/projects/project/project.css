@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .container-information-project {
@@ -112,7 +112,7 @@
 }
 
 .background-circle-white {
-    background-color: #ffff;
+    background-color: #ffffff;
     border-radius: 50px;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .btn-link-card-repo {
-    color: #ffff;
+    color: #ffffff;
     font-family: "jost-semibold";
     font-size: 16px;
     text-decoration: none;

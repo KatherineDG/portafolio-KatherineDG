@@ -1,0 +1,65 @@
+.main-education {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    margin-left: 50px;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.title-education {
+    color: var(--color-primary);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container-certificates {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #ffffff;
+}
+
+.image-certificate {
+    border-radius: 4px;
+}
+
+.certification {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.container-information-certificate {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-certificate, .institute-certificate {
+    font-family: "jost-bold";
+    font-size: 20px;
+}
+
+.state-certificate {
+    font-family: "jost-regular";
+    font-size: 20px;
+}
+
+.deco-line {
+    position: absolute;
+    background-color: #ffffff;
+    width: 3px;
+    height: 85%;
+    top: 8%;
+    left: 1.5%;
+    z-index: -1;
+}
+
+.deco-star {
+    filter: drop-shadow(1px 1px 0px #ffffff);
+}

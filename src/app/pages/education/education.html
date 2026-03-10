@@ -1,0 +1,21 @@
+<main class="main-education">
+    <div>
+        <h1 class="title-education">Educación</h1>
+        <div class="container-certificates">
+            <div class="deco-line"></div>
+            @for (c of certificates; track c.title) {
+                <div class="certification">
+                    <img class="deco-star" src="star-pink.svg">
+                    <img class="image-certificate" src="images/certificates/{{c.certificateImage}}.jpg" width="200">
+                    <div class="container-information-certificate">
+                        <p class="title-certificate">{{c.title}}</p>
+                        <p class="institute-certificate">{{c.institute}}</p>
+                        <p class="state-certificate">{{c.state}}</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>
+
+
