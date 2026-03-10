@@ -31,7 +31,7 @@ export class Education {
     },
     { title: "FullStack JAVA",
       institute: "Codo a Codo 4.0",
-      state: "en Curso",
+      state: "2022",
       certificateImage: "cac-java"
     },
   ]
