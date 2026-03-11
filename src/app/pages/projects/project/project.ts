@@ -34,13 +34,13 @@ export class Project {
     { name: 'Análisis de Dengue en CABA',
       images: ['reportedengue'],
       technologies: ['Python', 'sklearn', 'pandas', 'Excel', 'Looker Studio'],
-      information: 'Análisis de datos epidemiológicos del Dengue en CABA orientado a la optimización de recursos en salud pública. Se implementó un pipeline completo de Data Science, desde la limpieza (ETL) y suplantación de datos faltantes mediante datasets demográficos auxiliares, hasta la creación de modelos predictivos. Se uilizaron los algoritmos Random Forest y Regresión Logística para identificar zonas críticas y predecir probabilidades de brotes por comuna, mes y grupo etario. El proyecto integra análisis y visualización estratégica en Looker Studio, transformando datos complejos en conclusiones accionables para mitigar la propagación del mosquito y reducir el gasto público en campañas preventivas.',
+      information: 'Análisis de datos epidemiológicos del Dengue en CABA orientado a la optimización de recursos en salud pública. Se implementó un pipeline completo de Data Science, desde la limpieza (ETL) y suplantación de datos faltantes mediante datasets demográficos auxiliares, hasta la creación de modelos predictivos. Se uilizaron los algoritmos Random Forest y Regresión para identificar zonas críticas y predecir probabilidades de brotes por comuna, mes y grupo etario. El proyecto integra análisis y visualización estratégica en Looker Studio, transformando datos complejos en conclusiones accionables para mitigar la propagación del mosquito y reducir el gasto público en campañas preventivas.',
       repositories: [
         { site: 'GitHub',
           logo: 'github',
           type: 'repositorio',
-          description: 'KatherineDG/EstudioDengueCienciaDeDatos',
-          link: 'https://github.com/KatherineDG/EstudioDengueCienciaDeDatos.git'
+          description: 'KatherineDG/Estudio-Dengue',
+          link: 'https://github.com/KatherineDG/dengue-study-machine-learning.git'
         },
         { site: 'Looker',
           logo: 'google-looker',
@@ -59,8 +59,14 @@ export class Project {
         { site: 'GitHub',
           logo: 'github',
           type: 'repositorio',
-          description: 'KatherineDG/Gateway-De-Pagos-DAII',
-          link: 'https://github.com/KatherineDG/Gateway-De-Pagos-DAII.git'
+          description: 'KatherineDG/Gateway-De-Pagos',
+          link: 'https://github.com/KatherineDG/payment-gateway-backend-beluar.git'
+        },
+        { site: 'GitHub',
+          logo: 'github',
+          type: 'repositorio',
+          description: 'KatherineDG/EDA-Monitor',
+          link: 'https://github.com/KatherineDG/event-drive-architecture-monitor.git'
         }
       ],
       highlights: []
@@ -99,14 +105,8 @@ export class Project {
         { site: 'GitHub',
           logo: 'github',
           type: 'repositorio',
-          description: 'KatherineDG/EcoSense',
-          link: 'https://github.com/KatherineDG/EcoSenseTPI2025.git'
-        },
-        { site: 'GitHub',
-          logo: 'github',
-          type: 'repositorio',
-          description: 'KatherineDG/dashboard-real-time',
-          link: 'https://github.com/KatherineDG/dashboard-real-time.git'
+          description: 'KatherineDG/Analytics-Dashboard-EcoSense',
+          link: 'https://github.com/KatherineDG/big-data-analytics-dashboard-real-time.git'
         },
         { site: 'GitHub',
           logo: 'github',
