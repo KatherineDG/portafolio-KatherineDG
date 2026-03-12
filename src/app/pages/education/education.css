@@ -63,3 +63,27 @@
 .deco-star {
     filter: drop-shadow(1px 1px 0px #ffffff);
 }
+
+@media (max-width: 1090px) {
+
+        
+    .deco-line {
+        display: none;
+    }
+
+    .deco-star {
+        display: none;
+    }
+
+    .certification {
+        flex-direction: column;
+    }
+
+    .container-certificates {
+        gap: 50px;
+    }
+
+    .title-certificate, .institute-certificate, .state-certificate {
+        font-size: 16px;
+    }
+}
