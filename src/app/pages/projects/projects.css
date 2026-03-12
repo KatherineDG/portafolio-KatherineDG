@@ -25,3 +25,34 @@
     text-decoration: none;
     width: fit-content;
 }
+
+
+
+@media (max-width: 1090px) {
+
+    .main-projects {
+        margin-left: 20px;
+    }
+
+    .container-project-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .main-projects {
+        margin-left: 20px;
+    }
+
+    .container-project-cards {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+
+
+

@@ -3,7 +3,7 @@
     <div class="container-project-cards">
         @for (project of projects; track project.name) {
             <a class="link-project" [routerLink]="['/projects', project.name]">
-                <app-project-card [image]="project.image" [role]="project.role" [type]="project.type", [year]="project.year" [description]="project.description"></app-project-card>
+                <app-project-card [image]="project.image" [role]="project.role" [type]="project.type" [year]="project.year" [description]="project.description"></app-project-card>
             </a>
             
         }
