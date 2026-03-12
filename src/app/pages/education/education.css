@@ -51,13 +51,7 @@
 }
 
 .deco-line {
-    position: absolute;
-    background-color: #ffffff;
-    width: 3px;
-    height: 85%;
-    top: 8%;
-    left: 1.5%;
-    z-index: -1;
+    display: none;
 }
 
 .deco-star {
