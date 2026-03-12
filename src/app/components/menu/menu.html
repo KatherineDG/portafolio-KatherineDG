@@ -1,4 +1,10 @@
-<nav class="navegation">
+    <button class="hamburger-menu" (click)="interactionMenu()" [class.open]="isMenuOpen">
+       <span></span>
+       <span></span>
+       <span></span>
+    </button>
+
+<nav [class.active]="isMenuOpen">
     <div class="internal-navegation">
         @for (linkI of internalLinks; track linkI.title) {
             <a [class]="currentUrl() === linkI.url ? 'link-to-page actual-page' : 'link-to-page'" [href]="linkI.url">

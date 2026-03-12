@@ -8,6 +8,7 @@ import { Component, input } from '@angular/core';
 })
 export class Menu {
   currentUrl = input()
+  isMenuOpen = false
 
   //Poner href
   internalLinks = [
@@ -23,4 +24,8 @@ export class Menu {
     { iconCDN: "/icons/icons8-github-logo-96.png", title: "GitHub", alt: "Icon GitHub", url:"https://github.com/KatherineDG" },
     { iconCDN: "/icons/icons8-gmail-96.png", title: "Contacto", alt: "Icon Gmail", url: "mailto:katherinedomeqg@gmail.com"}
   ]
+
+  interactionMenu() {
+    this.isMenuOpen = !this.isMenuOpen
+  }
 }
