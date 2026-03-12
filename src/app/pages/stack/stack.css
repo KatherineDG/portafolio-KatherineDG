@@ -82,3 +82,49 @@
     font-family: "jost-semibold";
     font-size: 16px;
 }
+
+@media (max-width: 1060px) {
+    
+    .main-stack {
+        margin-left: 10px;
+    }
+
+    .container-filter-technologies {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-technologies {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    .main-stack {
+        margin-left: 10px;
+    }
+
+    .container-filter-technologies {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .container-filter {
+        flex-direction: column;
+    }
+
+    .container-type-filters {
+        flex-direction: column;
+    }
+
+    .container-technologies {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+}
