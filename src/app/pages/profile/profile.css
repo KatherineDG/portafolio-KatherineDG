@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .container-profile-content {
     position: relative;
     display: flex;
@@ -113,4 +114,22 @@
 .deco-big-light {
     right: 10px;
     top: 10px;
+}
+
+
+@media (max-width: 1060px) {
+
+    .main-profile {
+        margin-top: 30%;
+    }
+
+    .container-deco-stars-bottom-left, .container-deco-galaxia-top-left {
+        left: 0;
+    }
+
+    .container-profile-content {
+        text-align: center;
+        width: 100%;
+    }
+
 }
