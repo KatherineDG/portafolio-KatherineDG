@@ -66,6 +66,10 @@
 
 @media (max-width: 1090px) {
 
+    .main-education {
+        margin-left: 20px;
+    }
+
         
     .deco-line {
         display: none;

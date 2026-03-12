@@ -149,7 +149,7 @@ nav {
         top: 0;
         right: -100%; 
         width: 80vw; 
-        height: 100vh;
+        height: 100%;
         background: rgba(20, 0, 15, 0.95);
         backdrop-filter: blur(10px);
         transition: 0.4s ease-in-out;
