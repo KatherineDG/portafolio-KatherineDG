@@ -55,9 +55,28 @@
     width: 10px;
     height: 10px;
     background-color: var(--color-primary);
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
 .activity {
     font-family: "jost-regular";
+}
+
+@media (max-width: 1060px) {
+
+    .title-primary {
+        font-size: 16px;
+    }
+
+    .title-secondary {
+        font-size: 14px;
+    }
+
+    .title-thirdly {
+        font-size: 12px;
+    }
+
+    .activity {
+        font-size: 14px;
+    }
 }
