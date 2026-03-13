@@ -123,7 +123,7 @@
         margin-top: 30%;
     }
 
-    .container-deco-stars-bottom-left, .container-deco-galaxia-top-left {
+    .container-deco-galaxia-top-left {
         left: 0;
     }
 
@@ -132,4 +132,7 @@
         width: 90%;
     }
 
+    .container-deco-galaxia-bottom-right, .container-deco-stars-bottom-left  {
+        display: none;
+    }
 }
