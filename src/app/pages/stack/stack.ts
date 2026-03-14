@@ -19,7 +19,6 @@ export class Stack {
     {logo: 'angular', name: 'Angular'},
     {logo: 'ionic', name: 'Ionic'},
     {logo: 'figma', name: 'Figma'},
-    {logo: 'github', name: 'GitHub'},
   ]
 
   backendTech = [
@@ -32,7 +31,6 @@ export class Stack {
     {logo: 'django', name: 'Django'},
     {logo: 'jwt', name: 'JWT'},
     {logo: 'express-js', name: 'Express.js'},
-    {logo: 'github', name: 'GitHub'},
   ]
 
   databaseTech = [
@@ -48,6 +46,12 @@ export class Stack {
   cloudarchTech = [
     {logo: 'aws', name: 'AWS'},
     {logo: 'docker', name: 'Docker'},
+  ]
+
+  tools = [
+    {logo: 'git', name: 'Git'},
+    {logo: 'github', name: 'GitHub'},
+    {logo: 'trello', name: 'Trello'}
   ]
 
   technologies = signal<Array<any>>(this.frontendTech) //crear interface | type
@@ -69,6 +73,9 @@ export class Stack {
         break;
       case ('cloudarch'): 
         this.technologies.set(this.cloudarchTech)
+        break;
+      case ('tools'): 
+        this.technologies.set(this.tools)
         break;
     }
   }
