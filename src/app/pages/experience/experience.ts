@@ -13,7 +13,7 @@ export class Experience {
   principalExperience = [
     {rol: "Desarrollo Frontend - Angular & Ionic", site: "JRC Softcoding Solutions", duration: "Octubre 2024 - Marzo 2025",
       activities: [
-        "Maquetado de interfaces interactivas y responsive para nuevos componentes del sistema",
+        "Construcción de interfaces interactivas y responsive para nuevos componentes del sistema",
         "Mantenimiento evolutivo y optimización de componentes existentes para mejorar la experiencia del usuario",
         "Consumo de APIs",
         "Gestión de flujos de trabajo mediante metodologías ágiles y resolución de tickets en entornos colaborativos (Trello)"
