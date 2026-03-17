@@ -1,35 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-/* @font-face {
-    font-family: "jost-regular";
-    src: url("/fonts/Jost-Regular.ttf") format("truetype");
-    font-display: swap
-}
-
-
-@font-face {
-    font-family: "jost-medium";
-    src: url("/fonts/Jost-Medium.ttf") format("truetype");
-    font-display: swap
-}
-
-@font-face {
-    font-family: "jost-bold";
-    src: url("/fonts/Jost-Bold.ttf") format("truetype");
-    font-display: swap
-}
-
-@font-face {
-    font-family: "jost-semibold";
-    src: url("/fonts/Jost-SemiBold.ttf") format("truetype");
-    font-display: swap
-} */
 
 :root {
     --color-primary: #FF00AA;
 }
 
 body {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost', sans-serif !important;
     display: flex;
     flex-direction: row;
     margin: 0;
