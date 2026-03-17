@@ -16,7 +16,7 @@ export class Experience {
         "Construcción de interfaces interactivas y responsive para nuevos componentes del sistema",
         "Mantenimiento evolutivo y optimización de componentes existentes para mejorar la experiencia del usuario",
         "Consumo de APIs",
-        "Gestión de flujos de trabajo mediante metodologías ágiles y resolución de tickets en entornos colaborativos (Trello)"
+        "Gestión de flujos de trabajo mediante metodologías ágiles (Dailys) y resolución de tickets en entornos colaborativos (Trello)"
       ]}
   ]
 
