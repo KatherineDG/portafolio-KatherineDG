@@ -11,6 +11,7 @@
 .title-stack {
     color: var(--color-primary);
     font-size: 24px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -31,7 +32,6 @@
 
 .text-filter {
     color: #ffffff;
-    font-family: "jost-regular";
 }
 
 .container-type-filters {
@@ -45,7 +45,6 @@
     border: 1px solid var(--color-primary);
     border-radius: 50px;
     color: #ffffff;
-    font-family: "jost-regular";
     font-size: 16px;
     padding: 5px 10px;
     cursor: pointer;
@@ -79,8 +78,8 @@
 
 .text-technology {
     color: #ffffff;
-    font-family: "jost-semibold";
     font-size: 16px;
+    font-weight: 600;
 }
 
 @media (max-width: 1060px) {

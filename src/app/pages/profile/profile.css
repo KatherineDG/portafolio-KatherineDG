@@ -28,25 +28,20 @@
 
 
 .title-profile {
-    font-family: "jost-bold";
     font-size: 24px;
+    margin-top: 20px;
 }
 
 .subtitle-profile {
-    font-family: "jost-semibold";
     font-size: 20px;
     color: var(--color-primary);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .text-profile {
-    font-family: "jost-regular";
     font-size: 16px;
 }
-
-.sentence-highlight {
-    font-family: "jost-semibold";
-}
-
 
 .container-deco-stars-bottom-left {
     position: absolute;

@@ -13,6 +13,7 @@
     color: var(--color-primary);
     font-size: 24px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .container-project {
@@ -66,13 +67,11 @@
     background-color: var(--color-primary);
     padding: 8px  14px;
     font-size: 14px;
-    font-family: "jost-medium";
     text-align: center;
     border-radius: 50px;
 }
 
 .text-project {
-    font-family: "jost-regular";
     width: 100%;
 }
 
@@ -101,7 +100,6 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-family: "jost-bold";
     font-size: 20px;
     background-color: rgba(19, 4, 22, 20%);
     backdrop-filter: blur(15px);
@@ -118,12 +116,10 @@
 
 .description-card-repo {
     text-align: center;
-    font-family: "jost-regular";
 }
 
 .btn-link-card-repo {
     color: #ffffff;
-    font-family: "jost-semibold";
     font-size: 16px;
     text-decoration: none;
     text-align: center;
@@ -138,10 +134,6 @@
 
 .btn-card-repo:hover {
     background-color: rgba(59, 0, 40, 0.2);
-}
-
-.title-card-highlight {
-    font-family: "jost-medium";
 }
 
 .container-highlight {

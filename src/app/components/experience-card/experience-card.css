@@ -24,17 +24,14 @@
 
 .title-primary {
     font-size: 24px;
-    font-family: "jost-bold";
 }
 
 .title-secondary {
     font-size: 20px;
-    font-family: "jost-medium";
 }
 
 .title-thirdly {
     font-size: 16px;
-    font-family: "jost-regular";
 }
 
 .container-activities {
@@ -56,10 +53,6 @@
     height: 10px;
     background-color: var(--color-primary);
     border-radius: 50px;
-}
-
-.activity {
-    font-family: "jost-regular";
 }
 
 @media (max-width: 1060px) {

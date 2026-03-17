@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face {
+/* @font-face {
     font-family: "jost-regular";
     src: url("/fonts/Jost-Regular.ttf") format("truetype");
     font-display: swap
@@ -22,25 +22,38 @@
     font-family: "jost-semibold";
     src: url("/fonts/Jost-SemiBold.ttf") format("truetype");
     font-display: swap
-}
+} */
 
 :root {
     --color-primary: #FF00AA;
 }
 
 body {
+    font-family: 'Jost', sans-serif;
     display: flex;
     flex-direction: row;
     margin: 0;
     background-color: #210B25;
     width: fit-content;
 }
+
 h1 {
-    font-family: "jost-bold";
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 600;
 }
 
 p {
     margin: 0;
+    font-weight: 400;
+}
+
+button, a {
+    font-family: 'Jost', sans-serif;
 }
 
 .deco-big-circle-blur {
