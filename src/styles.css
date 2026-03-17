@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Jost', sans-serif !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     display: flex;
     flex-direction: row;
     margin: 0;
