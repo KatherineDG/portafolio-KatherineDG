@@ -30,7 +30,7 @@ export class Projects {
       role: 'Backend + Architecture',
       type: 'Trabajo Práctico',
       year: 2024,
-      description: 'Sistema desacoplado capaz de procesar pagos en un entorno de microservicios (Event Drive Architecture).',
+      description: 'Sistema desacoplado capaz de procesar pagos en un entorno de microservicios (Event Driven Architecture).',
     },
     { name: 'Kukit',
       image: 'kukit',

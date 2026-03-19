@@ -66,7 +66,7 @@ export class Project {
           logo: 'github',
           type: 'repositorio',
           description: 'KatherineDG/EDA-Monitor',
-          link: 'https://github.com/KatherineDG/event-drive-architecture-monitor.git'
+          link: 'https://github.com/KatherineDG/event-driven-architecture-monitor.git'
         }
       ],
       highlights: []
@@ -99,7 +99,7 @@ export class Project {
     },
     { name: 'EcoSense',
       images: ['ecosense'],
-      technologies: ['Python', 'Spark', 'Next.js', 'WebSocket', 'MongoDB', 'AWS', 'Kafka', 'EC2', 'Microservices', 'Event Drive Architecture', 'IOT Simulator'],
+      technologies: ['Python', 'Spark', 'Next.js', 'WebSocket', 'MongoDB', 'AWS', 'Kafka', 'EC2', 'Microservices', 'Event Driven Architecture', 'IOT Simulator'],
       information: 'EcoSense es una plataforma de monitoreo ambiental inteligente diseñada para optimizar el consumo de recursos en el sector agrícola multisede. Me enfoqué en el manejo de datos masivos, integrando Apache Spark para el análisis estadístico y procesamiento en tiempo real de métricas provenientes de sensores IoT (simulado). Se implementó la lógica de alarmado mediante Spark Streaming para detectar excesos de consumo de forma inmediata. Además, se desarrolló un dashboard interactivo en Next.js que consume datos vía WebSockets, transformando flujos complejos de Big Data en visualizaciones estratégicas que permiten disminuir la dependencia de auditorías externas y mejorar la sostenibilidad operativa.',
       repositories: [
         { site: 'GitHub',
