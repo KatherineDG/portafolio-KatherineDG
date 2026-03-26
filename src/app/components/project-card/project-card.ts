@@ -8,6 +8,7 @@ import { Component, input } from '@angular/core';
 })
 export class ProjectCard {
 
+  name = input<string>()
   image = input<String>()
   role = input<String>()
   type = input<String>()

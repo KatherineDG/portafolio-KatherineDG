@@ -14,7 +14,7 @@
         <div class="container-technologies">
             @for (technology of technologies(); track technology.name) {
                 <div class="technology">
-                    <img src="logos/icons8-{{technology.logo}}-48.png" height="36" width="36">
+                    <img src="logos/icons8-{{technology.logo}}-48.png" height="36" width="36" alt="{{technology.name}}">
                     <p class="text-technology">{{technology.name}}</p>
                 </div>              
             }
