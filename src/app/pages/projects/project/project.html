@@ -4,11 +4,41 @@
         <div class="container-project">
             <div class="container-information-project">
                 <div class="container-images-project">
-                    <button class="btn-before">
+                    <button class="btn-before" (click)="previousImage()">
                         <img src="icons/icons8-back-96.png" width="24">
                     </button>
-                    <img src="images/{{project.images[0]}}.jpg" width="80%">
-                    <button class="btn-after">
+
+                    @if(currentProject()?.media?.[currentImage] === 'png') {
+
+<img
+  [src]="'images/projects/' +
+          currentProject()?.imageFolder +
+          '/' +
+          currentProject()?.imageFolder +
+          '_' +
+          currentImage +
+          '.png'"
+  width="600"
+  height="315">
+
+}
+
+@if(currentProject()?.media?.[currentImage] === 'mp4') {
+
+<video width="600" height="300" controls>
+  <source
+    [src]="'images/projects/' +
+            currentProject()?.imageFolder +
+            '/' +
+            currentProject()?.imageFolder +
+            '_' +
+            currentImage +
+            '.mp4'"
+    type="video/mp4">
+</video>
+
+}
+                    <button class="btn-after" (click)="nextImage()">
                         <img src="icons/icons8-next-96.png" width="24">
                     </button>
                 </div>
